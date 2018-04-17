@@ -39,7 +39,12 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 * Abdel : https://github.com/aitbali
 =======
 * Alexandra : https://github.com/alexandradlg
+<<<<<<< HEAD
 >>>>>>> master
+=======
+* Selma : https://github.com/Asakab
+
+>>>>>>> e69ca71330d4749c5792ea16313f3712cfce5138
 
 ## Mon Slack
 
@@ -49,5 +54,10 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 
 =======
 * Alexandra : @Alex
+<<<<<<< HEAD
 >>>>>>> master
+=======
+* Selma : @Asak
+
+>>>>>>> e69ca71330d4749c5792ea16313f3712cfce5138
 
