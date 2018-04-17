@@ -36,9 +36,13 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 
 * Quentin : https://github.com/QUB-SPG
 * Alexandra : https://github.com/alexandradlg
+* Selma : https://github.com/Asakab
+
 
 ## Mon Slack
 
 * Quentin : @Quentin
 * Alexandra : @Alex
+* Selma : @Asak
+
 
