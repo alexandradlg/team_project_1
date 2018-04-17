@@ -1,13 +1,20 @@
 # DAY 16
 Liste Exercice :
-1. Envoyer mail aux mairies
+
+1. Scrapper -> récupérer les emails de trois départements
+
+
+2. Envoyer mail aux mairies
 
 
 
 3. Relance Twitter -> bot_twitter
- * programme 1 = bot_twitter_find_users.rb  
- * programme 2 = bot_twitter_follow_users.rb
- * lien du spreadsheet google:https://docs.google.com/spreadsheets/d/16txBeNWwgmpN90xXz0_JpyRV3XGzAVQ3I3PkdoSqjPo/edit#gid=0
+
+
+lien du spreadsheet google: https://docs.google.com/spreadsheets/d/16txBeNWwgmpN90xXz0_JpyRV3XGzAVQ3I3PkdoSqjPo/edit#gid=0
+ - programme 1 = bot_twitter_find_users.rb  
+ - programme 2 = bot_twitter_follow_users.rb
+    
 
 N'oubliez pas de configurer votre config.json avec vos tokens.
 
