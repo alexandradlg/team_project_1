@@ -30,14 +30,17 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 
 * Visual Studio Code
 * GitHub
-* De l'amour
+* De l'amour et des chouquettes
 
 
 ## Contributors
 
 * Quentin : https://github.com/QUB-SPG
+* Abdel : https://github.com/aitbali
 
 ## Mon Slack
 
 * Quentin : @Quentin
+* Abdel : @Abdel
+
 
