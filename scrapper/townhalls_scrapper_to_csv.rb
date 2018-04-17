@@ -16,7 +16,10 @@ def mairie (lien_mairie)
     mairie_name = mairie_h1[0]
     mairie_postal_code = mairie_h1[1]
     mairie_email = mairie_page.css("div[1]/main/section[2]/div/table/tbody/tr[4]/td[2]").text
+    if mairie_email.nil? || mairie_email.empty?
+    else
     h = Hash[:name => mairie_name,:zip_code => mairie_postal_code,:email => mairie_email]
+    end
     return h
     rescue OpenURI::HTTPError => e
       if e.message == '404 Not Found'
