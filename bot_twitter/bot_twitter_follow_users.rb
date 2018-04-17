@@ -6,7 +6,9 @@ require 'dotenv'
 Dotenv.load
 
 session = GoogleDrive::Session.from_config("config.json")
-@worksheet = session.spreadsheet_by_key("1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g").worksheets[0]
+@worksheet = session.spreadsheet_by_key("1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g").worksheets[1]
+# note, le fichier de scrap étant super long, on travaille sur un extrait dans l'onglet 2 pour faire tourner le script
+# suffit de changer l'index de la worksheet pour changer d'onglet
 
 def client
 
@@ -32,12 +34,15 @@ def find_twitter_user
 end
 
 def follow_twitter_user
+    # begin
         @users_array.shift 
         @users_array.each { |user|
             user.to_s
             client.follow(user)
         }
-
+    # rescue 
+    #     "No user matches for specified terms. (Twitter::Error::NotFound)"
+    # end
     # on follow chaque utilisateur contenu dans le user array.
 end
 
