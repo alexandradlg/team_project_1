@@ -37,10 +37,9 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 * Quentin : https://github.com/QUB-SPG
 
 * Abdel : https://github.com/aitbali
-=======
+
 * Alexandra : https://github.com/alexandradlg
 
-=======
 * Selma : https://github.com/Asakab
 
 
@@ -50,10 +49,8 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 
 * Abdel : @Abdel
 
-=======
 * Alexandra : @Alex
 
-=======
 * Selma : @Asak
 
 
