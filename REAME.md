@@ -9,15 +9,15 @@ https://github.com/sparklemotion/nokogiri
 https://github.com/gimite/google-drive-ruby
 https://github.com/bkeepers/dotenv
 
-J'ai un Gemfile. Une fois le projet DL, il faut faire : 
+J'ai un Gemfile. Une fois le projet DL, il faut faire :
 ```
 bundle install
 ```
-une fois le dossier DL sur votre PC. 
+une fois le dossier DL sur votre PC.
 
 ## Pré-requis
 
-Projet libre de droit et d'accès à la lecture/écriture. 
+Projet libre de droit et d'accès à la lecture/écriture.
 Pour pouvoir visualiser le projet, un simple navigateur suffit.
 
 
@@ -39,6 +39,7 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 * Abdel : https://github.com/aitbali
 =======
 * Alexandra : https://github.com/alexandradlg
+* Morgane : https://github.com/Morganetoriupper
 <<<<<<< HEAD
 >>>>>>> master
 =======
@@ -54,10 +55,11 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 
 =======
 * Alexandra : @Alex
+* Morgane : @morgane
 <<<<<<< HEAD
 >>>>>>> master
 =======
 * Selma : @Asak
 
->>>>>>> e69ca71330d4749c5792ea16313f3712cfce5138
 
+>>>>>>> e69ca71330d4749c5792ea16313f3712cfce5138
