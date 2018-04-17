@@ -6,19 +6,19 @@ Le programme a été fait par Quentin, Abdel, Selma, Morganne & Alexandra.
 
 ### Objectifs du programme :
 Le programme vise à récupérer les adresses emails des mairies de trois départements français pour ensuite :
-- Stocker les données scraper dans un document format JSON, CSV ou spreadsheet
+- Stocker les données scrapées dans un document format JSON, CSV ou spreadsheet
 - Leur envoyer un email via un programme ruby
 - Chercher leurs comptes twitter et les ajouter au document des données scrapées dans une nouvelle colonne.
 - Sur la base des comptes twitter ajoutés au document, suivre les utilisateurs concernés.
 
 ### Execution du programme
 
-Le programme a été éxécuter, pour vérifier son bon fonctionnement : 
+Le programme a été exécuté, pour vérifier son bon fonctionnement : 
 - Sur le spreadsheet, il y a trois colonnes : Mairie / Zipcode / email qui correspondent au programme de scrapping. 
 - Sur le même spreadsheet, il y a une quatrième colonne handle_twitter avec les users names qui correspond au programme de récupération des comptes twitter
 - Sur le compte twitter du Le Chameau champêtre, on peut voir que les comptes sont follow.
 
-Pour éxécuter vous-même le programme : 
+Pour exécuter vous-même le programme : 
 
 
 ## Liste Exercices :
@@ -26,6 +26,7 @@ Pour éxécuter vous-même le programme :
 1. Scrapper -> récupérer les emails de trois départements (Quentin & Morgane)
 
 2. Envoyer mail aux mairies (Abdel)
+ - email d envoi utilisé : Gmail créé pour l'occasion
 
 3. Relance Twitter -> bot_twitter (Alex & Selma)
  - format utilisé : google spreadsheet 
@@ -34,9 +35,10 @@ Pour éxécuter vous-même le programme :
  - programme 2 = bot_twitter_follow_users.rb (pour follow les utilisateurs en récupérant les users id sur le spreadsheet)
  - ATTENTION : le programme 1 doit être lancé avant le programme 2, sinon il n'y aura personne à follow
  - compte twitter utilisé : @La_Gauchette https://twitter.com/La_Gauchette 
+ - Dans le google spreadsheets, la colonne 'Handle_twitter' repertorie tous les comptes twitters des maires. ATTENTION si les cellules affichent 'no account', ça veut tout simplement dire que ces maires ne possèdent pas de compte twitter.
 
 
-N'oubliez pas de configurer votre config.json avec vos tokens.
+N'oubliez pas de configurer votre config.json avec vos tokens!!
 
 ## Gem requise :
 https://github.com/sparklemotion/nokogiri
