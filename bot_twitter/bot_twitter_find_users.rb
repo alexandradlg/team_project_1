@@ -1,6 +1,23 @@
 
 require 'twitter'
 require 'google_drive'
+require 'dotenv'
+
+Dotenv.load
+
+session = GoogleDrive::Session.from_config("config.json")
+@worksheet = session.spreadsheet_by_key("1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g").worksheets[0]
+
+def client
+
+    client = Twitter::REST::Client.new do |config|
+        config.consumer_key        = ENV['TWITTER_API_CONSUMER_KEY']
+        config.consumer_secret     = ENV['TWITTER_API_CONSUMER_SECRET']
+        config.access_token        = ENV['TWITTER_API_ACCESS_TOKEN']
+        config.access_token_secret = ENV['TWITTER_API_ACCESS_TOKEN_SECRET']
+      end
+end
+
 
 def find_user
     rows = @worksheet.rows
