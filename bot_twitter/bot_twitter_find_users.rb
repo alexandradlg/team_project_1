@@ -4,7 +4,6 @@ require 'google_drive'
 require 'dotenv'
 
 Dotenv.load
-
 session = GoogleDrive::Session.from_config("config.json")
 @worksheet = session.spreadsheet_by_key("1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g").worksheets[0]
 
