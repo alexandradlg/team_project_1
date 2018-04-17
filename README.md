@@ -1,14 +1,14 @@
 # DAY 16
 Liste Exercice :
 
-1. Scrapper -> récupérer les emails de trois départements
+1. Scrapper -> récupérer les emails de trois départements (Quentin & Morgane)
 
 
-2. Envoyer mail aux mairies
+2. Envoyer mail aux mairies (Abdel)
 
 
 
-3. Relance Twitter -> bot_twitter
+3. Relance Twitter -> bot_twitter (Alex & Selma)
  - programme 1 = bot_twitter_find_users.rb  
  - programme 2 = bot_twitter_follow_users.rb
  
@@ -55,6 +55,7 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 
 * Selma : https://github.com/Asakab
 
+* Morgane : https://github.com/Morganetoriupper
 
 ## Mon Slack
 
@@ -66,5 +67,6 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 
 * Selma : @Asak
 
+* Morgane : @Morgane
 
 
