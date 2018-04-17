@@ -35,11 +35,11 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 ## Contributors
 
 * Quentin : https://github.com/QUB-SPG
-<<<<<<< HEAD
+
 * Abdel : https://github.com/aitbali
 =======
 * Alexandra : https://github.com/alexandradlg
-<<<<<<< HEAD
+
 =======
 * Selma : https://github.com/Asakab
 
@@ -47,12 +47,12 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 ## Mon Slack
 
 * Quentin : @Quentin
-<<<<<<< HEAD
+
 * Abdel : @Abdel
 
 =======
 * Alexandra : @Alex
-<<<<<<< HEAD
+
 =======
 * Selma : @Asak
 
