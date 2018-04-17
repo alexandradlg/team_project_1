@@ -16,6 +16,7 @@ Le programme vise à récupérer les adresses emails des mairies de trois dépar
 1. Scrapper -> récupérer les emails de trois départements (Quentin & Morgane)
 
 2. Envoyer mail aux mairies (Abdel)
+ - email d envoi utilisé : Gmail créé pour l'occasion
 
 3. Relance Twitter -> bot_twitter (Alex & Selma)
  - format utilisé : google spreadsheet 
@@ -25,7 +26,7 @@ Le programme vise à récupérer les adresses emails des mairies de trois dépar
  - compte twitter utilisé : @La_Gauchette https://twitter.com/La_Gauchette 
 
 
-N'oubliez pas de configurer votre config.json avec vos tokens.
+N'oubliez pas de configurer votre config.json avec vos tokens!!
 
 ## Gem requise :
 https://github.com/sparklemotion/nokogiri
