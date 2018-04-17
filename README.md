@@ -6,7 +6,8 @@ Liste Exercice :
 3. Relance Twitter -> bot_twitter
  * programme 1 = bot_twitter_find_users.rb  
  * programme 2 = bot_twitter_follow_users.rb
-     lien du spreadsheet google:https://docs.google.com/spreadsheets/d/16txBeNWwgmpN90xXz0_JpyRV3XGzAVQ3I3PkdoSqjPo/edit#gid=0
+   
+   lien du spreadsheet google:https://docs.google.com/spreadsheets/d/16txBeNWwgmpN90xXz0_JpyRV3XGzAVQ3I3PkdoSqjPo/edit#gid=0
 
 N'oubliez pas de configurer votre config.json avec vos tokens.
 
