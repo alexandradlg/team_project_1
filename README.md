@@ -6,19 +6,19 @@ Le programme a été fait par Quentin, Abdel, Selma, Morganne & Alexandra.
 
 ### Objectifs du programme :
 Le programme vise à récupérer les adresses emails des mairies de trois départements français pour ensuite :
-- Stocker les données scraper dans un document format JSON, CSV ou spreadsheet
+- Stocker les données scrapées dans un document format JSON, CSV ou spreadsheet
 - Leur envoyer un email via un programme ruby
 - Chercher leurs comptes twitter et les ajouter au document des données scrapées dans une nouvelle colonne.
 - Sur la base des comptes twitter ajoutés au document, suivre les utilisateurs concernés.
 
 ### Execution du programme
 
-Le programme a été éxécuter, pour vérifier son bon fonctionnement : 
+Le programme a été exécuté, pour vérifier son bon fonctionnement : 
 - Sur le spreadsheet, il y a trois colonnes : Mairie / Zipcode / email qui correspondent au programme de scrapping. 
 - Sur le même spreadsheet, il y a une quatrième colonne handle_twitter avec les users names qui correspond au programme de récupération des comptes twitter
 - Sur le compte twitter du Le Chameau champêtre, on peut voir que les comptes sont follow.
 
-Pour éxécuter vous-même le programme : 
+Pour exécuter vous-même le programme : 
 
 
 ## Liste Exercices :
