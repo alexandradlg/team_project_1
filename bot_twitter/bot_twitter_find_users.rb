@@ -45,10 +45,10 @@ end
 def update_spreadsheet
     @results.delete_at(0)
     # on supprime la première entre de l'array qui correspond au header
-    @worksheet[1,3] = "twitter_handle"
+    @worksheet[1,4] = "twitter_handle"
     x = 2
     @results.each { |user|
-        @worksheet[x,3] = user
+        @worksheet[x,4] = user
         x +=1
         @worksheet.save
     }
