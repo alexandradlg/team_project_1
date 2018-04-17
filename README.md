@@ -11,6 +11,16 @@ Le programme vise à récupérer les adresses emails des mairies de trois dépar
 - Chercher leurs comptes twitter et les ajouter au document des données scrapées dans une nouvelle colonne.
 - Sur la base des comptes twitter ajoutés au document, suivre les utilisateurs concernés.
 
+### Execution du programme
+
+Le programme a été éxécuter, pour vérifier son bon fonctionnement : 
+- Sur le spreadsheet, il y a trois colonnes : Mairie / Zipcode / email qui correspondent au programme de scrapping. 
+- Sur le même spreadsheet, il y a une quatrième colonne handle_twitter avec les users names qui correspond au programme de récupération des comptes twitter
+- Sur le compte twitter du Le Chameau champêtre, on peut voir que les comptes sont follow.
+
+Pour éxécuter vous-même le programme : 
+
+
 ## Liste Exercices :
 
 1. Scrapper -> récupérer les emails de trois départements (Quentin & Morgane)
@@ -21,8 +31,9 @@ Le programme vise à récupérer les adresses emails des mairies de trois dépar
 3. Relance Twitter -> bot_twitter (Alex & Selma)
  - format utilisé : google spreadsheet 
  - lien du spreadsheet google: https://docs.google.com/spreadsheets/d/1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g/edit#gid=0
- - programme 1 = bot_twitter_find_users.rb
- - programme 2 = bot_twitter_follow_users.rb
+ - programme 1 = bot_twitter_find_users.rb (pour chercher les comptes twitter et les ajouter au spreadsheet)
+ - programme 2 = bot_twitter_follow_users.rb (pour follow les utilisateurs en récupérant les users id sur le spreadsheet)
+ - ATTENTION : le programme 1 doit être lancé avant le programme 2, sinon il n'y aura personne à follow
  - compte twitter utilisé : @La_Gauchette https://twitter.com/La_Gauchette 
 
 

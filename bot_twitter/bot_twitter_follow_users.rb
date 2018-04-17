@@ -25,7 +25,7 @@ def find_twitter_user
     @users_array = []
     # création d'un array vide qui contiendra les noms d'utilisateur récupéré sur le spreadsheet
     rows.each { |row|
-        users = row[2]
+        users = row[3]
         @users_array.push(users)
     }
     # pour chaque élément du array rows, on garde l'index correspondant à la colonne twitter_handle puis ils sont pushé dans le users array
