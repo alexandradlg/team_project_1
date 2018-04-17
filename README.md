@@ -1,10 +1,13 @@
 # DAY 16
 Liste Exercice :
 
+
 1. Scrapper -> récupérer les emails de trois départements (Quentin & Morgane)
 
 
+
 2. Envoyer mail aux mairies (Abdel)
+
 
 
 
