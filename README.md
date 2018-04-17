@@ -32,6 +32,7 @@ Pour éxécuter vous-même le programme :
  - lien du spreadsheet google: https://docs.google.com/spreadsheets/d/1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g/edit#gid=0
  - programme 1 = bot_twitter_find_users.rb (pour chercher les comptes twitter et les ajouter au spreadsheet)
  - programme 2 = bot_twitter_follow_users.rb (pour follow les utilisateurs en récupérant les users id sur le spreadsheet)
+ - ATTENTION : le programme 1 doit être lancé avant le programme 2, sinon il n'y aura personne à follow
  - compte twitter utilisé : @La_Gauchette https://twitter.com/La_Gauchette 
 
 
