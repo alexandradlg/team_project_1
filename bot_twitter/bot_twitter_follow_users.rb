@@ -32,11 +32,12 @@ def find_twitter_user
 end
 
 def follow_twitter_user
-    @users_array.shift
-    @users_array.each { |user|
-        user.to_s
-        client.follow(user)
-    }
+        @users_array.shift 
+        @users_array.each { |user|
+            user.to_s
+            client.follow(user)
+        }
+
     # on follow chaque utilisateur contenu dans le user array.
 end
 

@@ -5,7 +5,7 @@ require 'dotenv'
 
 Dotenv.load
 session = GoogleDrive::Session.from_config("config.json")
-@worksheet = session.spreadsheet_by_key("1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g").worksheets[0]
+@worksheet = session.spreadsheet_by_key("1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g").worksheets[1]
 
 def client
 
@@ -30,14 +30,22 @@ def find_user
     # pour chaque rows, on construit un string avec le prefixe maire de + le premier index du row ici la ville puis on le push dans l'array.
     @results = []
     #création d'un array vide pour stocker les résultats de la recherche (les noms des utilisateurs twitter)
-    search_array.each { |ville|
-        @search = client.user_search(ville).take(1)  
-        @search.each { |user|
-            user_tweet = user.screen_name
+    search_array.each { |ville|            
+        @search = client.user_search(ville).take(1)
+        if client.user_search(ville).empty? || client.user_search(ville).nil?
+            @results.push("no_account_found")
+        else
+            @search.each { |user|
+                user_tweet = user.screen_name
                 @results.push(user_tweet)
             }
+        end
+        
     }
+
     # on fait une recherche dans le champ utilisateur twitter pour chaque ville (on recherche maire de "ville") pour récupérer le premier uitlisateur qui ressort.
+    # Peu de mairie ont des comptes twitter (0 résultats lors de la recherche maire de "ville"). 
+    # On push "no_twitter_account : no result" quand c'est le cas
     # pour chaque user récupéré (1 par recherche) on garde le screen name de l'utilisateur et on le push dans l'array.
     # On se retouve avec un array de nom d'utilisateur 
 end
