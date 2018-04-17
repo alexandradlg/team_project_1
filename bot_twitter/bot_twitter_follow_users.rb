@@ -23,7 +23,7 @@ end
 
 def find_twitter_user
     rows = @worksheet.rows
-    # récupération des rows du spreadsheet, ils sont stockés dans l'array rows. On obtien un array de array.
+    # récupération des rows du spreadsheet, ils sont stockés dans l'array rows. On obtient un array de array.
     @users_array = []
     # création d'un array vide qui contiendra les noms d'utilisateur récupéré sur le spreadsheet
     rows.each { |row|
