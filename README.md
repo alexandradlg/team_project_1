@@ -3,6 +3,7 @@ Liste Exercice :
 1. Envoyer mail aux mairies
 
 
+
 3. Relance Twitter -> bot_twitter
  * programme 1 = bot_twitter_find_users.rb  
  * programme 2 = bot_twitter_follow_users.rb
