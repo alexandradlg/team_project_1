@@ -54,7 +54,7 @@ end
 
 def send_to_spreadsheet (hash_array)
   session = GoogleDrive::Session.from_config("config.json")
-  ws = session.spreadsheet_by_key("PUT YOUR KEY HERE").worksheets[0]
+  ws = session.spreadsheet_by_key("1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g").worksheets[0]
   # Set up the header
   ws[1, 1] = "Mairie"
   ws[1, 2] = "Zip Code"
@@ -67,8 +67,9 @@ def send_to_spreadsheet (hash_array)
   ws[i, 2] = x[:zip_code]
   ws[i, 3] = x[:email]
   ws.save
-  end
   i += 1 # Go to next line
+  end
+  
   }
 end
 
