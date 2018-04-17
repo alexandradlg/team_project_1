@@ -20,8 +20,8 @@ Le programme vise à récupérer les adresses emails des mairies de trois dépar
 3. Relance Twitter -> bot_twitter (Alex & Selma)
  - format utilisé : google spreadsheet 
  - lien du spreadsheet google: https://docs.google.com/spreadsheets/d/1AiQCScyKQt7rjXjAxKdzOqF0sycL2BZ4Fp4xOjtFD1g/edit#gid=0
- - programme 1 = bot_twitter_find_users.rb
- - programme 2 = bot_twitter_follow_users.rb
+ - programme 1 = bot_twitter_find_users.rb (pour chercher les comptes twitter et les ajouter au spreadsheet)
+ - programme 2 = bot_twitter_follow_users.rb (pour follow les utilisateurs en récupérant les users id sur le spreadsheet)
  - compte twitter utilisé : @La_Gauchette https://twitter.com/La_Gauchette 
 
 
