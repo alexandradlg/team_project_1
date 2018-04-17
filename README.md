@@ -2,7 +2,7 @@
 
 ## Présentation du programme
 
-Le programme a été fait par Quentin, Abdel, Selma, Morganne & Alexandra. 
+Le programme a été fait par Quentin, Abdel, Selma, Morgane & Alexandra. 
 
 ### Objectifs du programme :
 Le programme vise à récupérer les adresses emails des mairies de trois départements français pour ensuite :
@@ -19,14 +19,27 @@ Le programme a été exécuté, pour vérifier son bon fonctionnement :
 - Sur le compte twitter du Le Chameau champêtre, on peut voir que les comptes sont follow.
 
 Pour exécuter vous-même le programme : 
-
+1. Lancer townhalls_scrapper_to_spreadsheet.rb
+   Scrap et met dans une spreadsheet Google qui sera utilisée pour Twitter
+2. Lancer townhalls_scrapper_to_csv.rb
+   Scrap et met dans un CSv qui sera utilisé pour envoyer les emails
+3. Lancer bot_twitter_find_users.rb
+   Récupère les @ Twitter des Mairies et les stock dans Google Spreadsheet
+4. Lancer bot_twitter_follow_users.rb
+   Follow les @ présent dans Googel Spreadsheet
+5. Lancer Send_Emails.rb
+   Envois des emails aux mairie ayant un email dans le fichier CSV
 
 ## Liste Exercices :
 
-1. Scrapper -> récupérer les emails de trois départements (Quentin & Morgane)
+1. Scrapper (Quentin & Morgane)
+ - Récupère les emails de trois départements 
+ - Sauvegarde en format CSV ou Google Spreadsheet selon le script (il y en a 2)
+ - Nombre de mairie total 1182
 
 2. Envoyer mail aux mairies (Abdel)
- - email d envoi utilisé : Gmail créé pour l'occasion
+ - Email d envoi utilisé : Gmail créé pour l'occasion
+ - Email envoyé 1103 (toutes les mairies n'avaient pas d'email)
 
 3. Relance Twitter -> bot_twitter (Alex & Selma)
  - format utilisé : google spreadsheet 
@@ -35,23 +48,46 @@ Pour exécuter vous-même le programme :
  - programme 2 = bot_twitter_follow_users.rb (pour follow les utilisateurs en récupérant les users id sur le spreadsheet)
  - ATTENTION : le programme 1 doit être lancé avant le programme 2, sinon il n'y aura personne à follow
  - compte twitter utilisé : @La_Gauchette https://twitter.com/La_Gauchette 
- - Dans le google spreadsheets, la colonne 'Handle_twitter' repertorie tous les comptes twitters des maires. ATTENTION si les cellules affichent 'no account', ça veut tout simplement dire que ces maires ne possèdent pas de compte twitter.
 
 
 N'oubliez pas de configurer votre config.json avec vos tokens!!
 
-## Gem requise :
+## Installation
+### Gem
 https://github.com/sparklemotion/nokogiri
 https://github.com/gimite/google-drive-ruby
 https://github.com/bkeepers/dotenv
 https://github.com/sferik/twitter
 https://github.com/gmailgem/gmail
 
-J'ai un Gemfile. Une fois le projet DL, il faut faire : 
+Une fois le fichier télécharger faire cette commande pour installer les Gem : 
 ```
 bundle install
 ```
-une fois le dossier DL sur votre PC. 
+
+### Env
+Créer 2 `.env` files dans les dossiers suivants:
+ - send_emails
+ - bot_twitter
+ Pour le `.env` dans send_emails copier-coller ceci et le remplir avec les bons ID de la boite Gmail :
+```
+GMAIL_ID="ID HERE"
+GMAIL_SECRET="MDP HERE"
+```
+Pour le `.env` dans bot_twitter copier coller ceci et remplir avec les bons ID et token : 
+Dans l'ordre, identifiant de l'App Gdrive, Id compte Gmail, ID App Twitter
+```
+GOOGLE_DRIVE_CLIENT_ID="ID HERE"
+GOOGLE_DRIVE_CLIENT_SECRET="ID HERE"
+
+EMAIL="ID HERE"
+PASSWORD="ID HERE"
+
+TWITTER_API_CONSUMER_KEY="ID HERE"
+TWITTER_API_CONSUMER_SECRET="ID HERE"
+TWITTER_API_ACCESS_TOKEN="ID HERE"
+TWITTER_API_ACCESS_TOKEN_SECRET="ID HERE"
+```
 
 ## Pré-requis
 
