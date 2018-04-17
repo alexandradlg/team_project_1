@@ -35,6 +35,7 @@ Pour exécuter vous-même le programme :
  - programme 2 = bot_twitter_follow_users.rb (pour follow les utilisateurs en récupérant les users id sur le spreadsheet)
  - ATTENTION : le programme 1 doit être lancé avant le programme 2, sinon il n'y aura personne à follow
  - compte twitter utilisé : @La_Gauchette https://twitter.com/La_Gauchette 
+ - Dans le google spreadsheets, la colonne 'Handle_twitter' repertorie tous les comptes twitters des maires. ATTENTION si les cellules affichent 'no account', ça veut tout simplement dire que ces maires ne possèdent pas de compte twitter.
 
 
 N'oubliez pas de configurer votre config.json avec vos tokens!!
