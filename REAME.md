@@ -40,5 +40,5 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 ## Mon Slack
 
 * Quentin : @Quentin
-* Alexandra = @Alex
+* Alexandra : @Alex
 
